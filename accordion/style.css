@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: gotham;
+    box-sizing: border-box;
+}
+
+#accordion{
+    width:50%;
+    margin-left:25%;
+    margin-top:100px;
+}
+.acc-item{
+    width: 100%;
+}
+.acc-header{
+
+    width: 100%;
+    padding:10px;
+    background-color: goldenrod;
+    cursor: pointer;
+    
+}
+.acc-container{
+    
+    background-color: whitesmoke;
+    overflow:hidden;
+    height: 0px;
+    transition: 0.3s;
+  
+}
