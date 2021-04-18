@@ -2,7 +2,7 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-    font-family:roboto;
+    font-family:tahoma;
 }
 body,html{
     width:100%;
@@ -45,11 +45,13 @@ body,html{
 }
 
 #text-box{
+    transition: 1s;
     width:70%;
     display: flex;
     padding:60px;
     justify-content: center;
     overflow-y: auto;
+    
 }
 
 #inner-box{
@@ -109,4 +111,24 @@ body,html{
     color:white;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+@media (max-width:750px){
+    #modal{
+        flex-direction: column;
+       
+    }
+    .img-box{width:100%;
+    height:20%;}
+    #image-row{
+        width:100%;
+        margin:0%;
+        text-align: center;
+        
+    }
+    #text-box{
+        width:100%;
+    }
+
+
 }
